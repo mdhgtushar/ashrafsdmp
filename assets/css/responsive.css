@@ -1,0 +1,38 @@
+/*
+ * ──────────────────────────────────────────────────────── I ──────────
+ *   :::::: S E R V I C E S : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────────
+ */
+
+ @media (max-width: 800px) {
+    .service-single, .single-testimonial, .single-gallery {
+      flex: 50%;
+      max-width: 50%;
+    }
+    .about-content, .footer-left, .footer-right{
+        padding: 10px;
+    }
+    .about-content, .footer-left, .footer-right, .about-img{
+        width: 100%;
+        text-align: left;
+    }
+    .contact-from{
+        width: 100%;
+    }
+    .contact-information{
+        text-align: left;
+        width: 100%;
+    }
+    .contact-info-box{
+        text-align: left;
+    }
+  }
+  
+ @media (max-width: 500px) {
+
+    .service-single, .single-testimonial, .single-gallery {
+        flex: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+      }
+ }
