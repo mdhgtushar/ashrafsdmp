@@ -26,9 +26,6 @@
     .contact-info-box{
         text-align: left;
     }
-  .header-menu a{
-   display: none;
-  }
   }
   
  @media (max-width: 500px) {
@@ -38,4 +35,7 @@
         max-width: 100%;
         margin: 10px 0;
       }
+  .header-menu a{
+   display: none;
+  }
  }
