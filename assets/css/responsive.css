@@ -26,6 +26,9 @@
     .contact-info-box{
         text-align: left;
     }
+  .header-menu a{
+   display: none;
+  }
   }
   
  @media (max-width: 500px) {
